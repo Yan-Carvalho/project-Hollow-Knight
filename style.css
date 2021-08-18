@@ -227,3 +227,79 @@ footer{
       background-position: 0% 50%;
     }
 }
+
+/* começo */
+
+.container-type-2-C{
+    background: url(https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/wiiu_download_software_5/H2x1_WiiUDS_HollowKnight.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.outrocontainer{
+    max-width: 1200px;
+    padding: 0  40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem, .accordion-menuu{
+    width: calc(60% - 20px);
+}
+
+
+.titulo{
+    background-color: #25133b;
+    display: flex;
+    color: aliceblue;
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone{
+    position: relative;
+    width: 14px;
+}
+
+.icone::before, .icone::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 3px;
+    background-color: rgb(232, 234, 236);
+    top: -1.5px;
+    text-decoration: none;
+}
+
+
+.parte1{
+    background-color: aquamarine;
+    color: rgb(2, 2, 2);
+    line-height: 26px;
+    margin: 6px 0;
+    opacity: 0;
+    height: 0;
+}
+
+.item:target .parte1{
+    height: auto;
+    opacity: 1;
+    padding: 20px;
+    margin: 12px 0;
+}
+
+.item:target, .icone::after{
+    transform: rotate(0);
+}
+
+/* final */
