@@ -20,7 +20,7 @@
 }
 .carousel img {
     position: absolute;
-    width: 650px;
+    width: 550px;
     height: 550px;
     opacity: 0;
     z-index: 9999;
