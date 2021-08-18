@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+
+
+.carousel {
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background: #232324;
+  position: relative;
+  display: flex;
+  }
+.carousel .slides {
+    position: relative;
+    top: -18em;
+    left: 10em;
+
+}
+.carousel img {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.carousel img:active {
+    opacity: 1;
+}
+
+.overlays {
+    position: relative;
+    width: 60%;
+    height: 18em;
+}
+.overlays .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bar-color);
+    transform-origin: left;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0 0 0 6em;
+    list-style-type: none;
+}
+.nav-link {
+    font-size: 2rem;
+    font-family: Lora, serif;
+    line-height: 2;
+    text-decoration: none;
+    color: #7f8c8d;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: #fdfdfd;
+}
+
+.nav-link .active {
+    color: rgb(102, 29, 29);
+    pointer-events: none;
+}
