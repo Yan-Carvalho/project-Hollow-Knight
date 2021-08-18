@@ -159,15 +159,19 @@ button:hover span:after {
 .A{
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, #000724, #010005, #110322);
+    background: linear-gradient(45deg, #000724, #010005,#010005, #110322);
     background-size: 300% 300%;
     animation: colors 25s ease infinite;
 }
 .B{
-    background-color:darkgreen
+    margin: 0;
+    background: #010005;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
 }
 .C{
-     background: #010005;
+    background: #010005;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +186,7 @@ button:hover span:after {
     padding-top: 10px;
     padding-left: 40%;
     text-shadow: 5px 2px 7px  #333; 
-    font-size: 60px;;
+    font-size: 60px;
 }
 
 .prot_container{
@@ -203,17 +207,21 @@ button:hover span:after {
 .prot_text p, h1{
     text-shadow: 5px 2px 7px  #333;
 }
+
 .prot_img img{
    width: 80%;
    cursor: pointer;
    filter: grayscale(0);
    transition: filter 1s;
 }
-
 .prot_img img:hover{
     filter: grayscale(1);
 }
+/* teste */
 
+
+
+/* fim teste */
 @keyframes colors{
 
     0%{
@@ -255,8 +263,7 @@ button:hover span:after {
     box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
     display: flex;
 }
-  
-. carousel__face span {
+.carousel__face span {
     margin: auto;
     font-size: 2rem;
 }
@@ -291,7 +298,7 @@ button:hover span:after {
 }
 /* Fim do carousel_2 */
 
-/* começo */
+
 .container-type-2_5{
     width: 100%;
     padding: 0  40px;
@@ -306,6 +313,8 @@ button:hover span:after {
 .imagem, .accordion-menuu{
     width: calc(60% - 20px);
 }
+
+
 .titulo{
     background-color: #010005;
     display: flex;
@@ -325,6 +334,7 @@ a{
     position: relative;
     width: 14px;
 }
+
 .icone::before, .icone::after{
     content: "";
     position: absolute;
@@ -334,6 +344,8 @@ a{
     top: -1.5px;
     text-decoration: none;
 }
+
+
 .parte1{
     background-color: #161616;
     background-size: 300% 300%;
@@ -343,15 +355,19 @@ a{
     opacity: 0;
     height: 0;
 }
+
 .item:target .parte1{
     height: auto;
     opacity: 1;
     padding: 20px;
     margin: 12px 0;
 }
+
 .item:target, .icone::after{
     transform: rotate(0);
 }
+
+
 footer{
     width: 100%;
     height: 50px;
@@ -359,5 +375,4 @@ footer{
     color:#fff;
     text-align: center;
 }
-
 /* final */
