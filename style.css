@@ -65,6 +65,7 @@ p{
     text-shadow: 0.1em 0.1em rgb(27, 27, 27);
     margin-top: 20px;
     letter-spacing: 2px;
+    line-height: 20px;
 }
 
 button{
