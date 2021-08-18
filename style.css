@@ -299,7 +299,7 @@ button:hover span:after {
     align-items: center;
     justify-content: space-between;
 }
-.container-type-2_5 p, span{
+.container-type-2_5 p{
     text-shadow: 5px 2px 7px  #333;
     
 }
