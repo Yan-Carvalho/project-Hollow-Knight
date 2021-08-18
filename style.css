@@ -181,7 +181,8 @@ footer{
     font-weight: bold;
     padding-top: 10px;
     padding-left: 40%;
-    text-shadow: 0.1em 0.1em #333; font-size: 50px;
+    text-shadow: 5px 2px 7px  #333; 
+    font-size: 60px;;
 }
 
 .prot_container{
@@ -199,7 +200,9 @@ footer{
 .prot_text{
     flex-basis: 65%;
 }
-
+.prot_text p, h1{
+    text-shadow: 5px 2px 7px  #333;
+}
 .prot_img img{
    width: 80%;
    cursor: pointer;
