@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+@@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
 
 
 
@@ -20,7 +20,7 @@
 }
 .carousel img {
     position: absolute;
-    width: 550px;
+    width: 650px;
     height: 550px;
     opacity: 0;
     z-index: 9999;
