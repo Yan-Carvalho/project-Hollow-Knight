@@ -337,6 +337,11 @@ button:hover span:after {
     align-items: center;
     justify-content: space-between;
 }
+.titulo:hover{
+    background: linear-gradient(45deg,#000724,#010005, #010005, #010005);
+    background-size: 300% 300%;
+    animation: colors 1s ease-in;
+}
 a{
     text-decoration: none;
 }
