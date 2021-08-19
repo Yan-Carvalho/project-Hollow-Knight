@@ -167,6 +167,7 @@ button:hover span:after {
     text-shadow: 5px 2px 7px  #333;
 }
 .A{
+    margin-top: 60px;
     height: 100%;
     width: 100%;
     background: linear-gradient(45deg, #000724, #010005,#010005, #110322);
