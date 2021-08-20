@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#idone{
+    color: blanchedalmond;
+    margin: 37px;
+}
+
+#idtwo{
+    color: blanchedalmond;
+    margin: 30px;
+}
+
+#h1one{
+    color: cornsilk;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px 40px 260px;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#h1two{
+    color: cornsilk;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 40px 40px 230px;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+ul{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(58, 45, 95);
+    margin: auto;
+    border:3px solid cornsilk;
+    border-radius: 5%;
+}
+
+.container{
+    margin: 125px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button:hover span {
+    padding-right: 25px;
+    color: white;
+}
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 0;
+    background-color:rgb(218, 205, 255);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    margin: 15px 4px 15px 80px;
+}
