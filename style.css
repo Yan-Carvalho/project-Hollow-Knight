@@ -2,8 +2,6 @@ body{
     width: 98.77vw;
 
 }
-/* Retirei os padding pois criavam uma saída lateral da tela e fica com o UX ruim */
-
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +43,6 @@ body{
     justify-content: right;
 }
 
-/* como tirei os padding eu adicionei onde precisava, nessa div  */
 .outra{
     flex-basis: 40%;
     margin-left: 5%;
@@ -228,11 +225,7 @@ button:hover span:after {
 .prot_img img:hover{
     filter: grayscale(1);
 }
-/* teste */
 
-
-
-/* fim teste */
 @keyframes colors{
 
     0%{
@@ -390,5 +383,65 @@ footer{
     background-color: rgb(32, 32, 32);
     color:#fff;
     text-align: center;
+}
+
+/* contato page  */
+.contato{
+    width: 100vw;
+    height: 100vh;
+    background-color: #010005;
+    margin: 0;
+    padding:0;
+    color:#fff ;
+    text-align: left;
+    font-size: 22px;
+}
+.contato_container{
+    height: 85%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.contato_dev{
+    width: 70%;
+    height: 220px;
+    background-color: #333;
+    border-top-right-radius: 10%;
+}
+.contato_dev div{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: row;
+    padding: 10px 20px 20px 10px;
+}
+.contato_dev img{
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+h2{
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:active{
+    color: #fff;
+}
+.button-back{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #333;
 }
 /* final */
